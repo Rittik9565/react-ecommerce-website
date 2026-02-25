@@ -7,32 +7,31 @@ import "swiper/css/navigation";
 
 export default function Hero() {
   const slides = [
-    {
-      id: 1,
-      image: "/images/img_bg_1.jpg",
-      title1: "Men's",
-      title2: "Shoes",
-      title3: "Collection",
-      subtitle: "New trending shoes",
-    },
-    {
-      id: 2,
-      image: "/images/img_bg_2.jpg",
-      title1: "Huge",
-      title2: "Sale",
-      title3: "50% Off",
-      subtitle: "Big sale sandals",
-    },
-    {
-      id: 3,
-      image: "/images/img_bg_3.jpg",
-      title1: "New",
-      title2: "Arrival",
-      title3: "Up to 30% Off",
-      subtitle: "New stylish shoes for men",
-    },
-  ];
-
+  {
+    id: 1,
+    image: `${import.meta.env.BASE_URL}images/img_bg_1.jpg`,
+    title1: "Men's",
+    title2: "Shoes",
+    title3: "Collection",
+    subtitle: "New trending shoes",
+  },
+  {
+    id: 2,
+    image: `${import.meta.env.BASE_URL}images/img_bg_2.jpg`,
+    title1: "Huge",
+    title2: "Sale",
+    title3: "50% Off",
+    subtitle: "Big sale sandals",
+  },
+  {
+    id: 3,
+    image: `${import.meta.env.BASE_URL}images/img_bg_3.jpg`,
+    title1: "New",
+    title2: "Arrival",
+    title3: "Up to 30% Off",
+    subtitle: "New stylish shoes for men",
+  },
+];
   return (
     <div style={{ height: "600px" }}>
       <Swiper

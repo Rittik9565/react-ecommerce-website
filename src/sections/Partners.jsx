@@ -1,14 +1,25 @@
-export default function Partners() {
+export default function Featured() {
   return (
-    <div className="container text-center my-5">
-      <h3>Trusted Partners</h3>
-      <div className="row mt-4">
-        <div className="col"><img src="/images/brand-1.jpg" className="img-fluid" /></div>
-        <div className="col"><img src="/images/brand-2.jpg" className="img-fluid" /></div>
-        <div className="col"><img src="/images/brand-3.jpg" className="img-fluid" /></div>
-        <div className="col"><img src="/images/brand-4.jpg" className="img-fluid" /></div>
-        <div className="col"><img src="/images/brand-5.jpg" className="img-fluid" /></div>
+    <div className="container-fluid my-5">
+      <div className="row">
+        <div className="col-md-6 text-center">
+          <img
+            src={`${import.meta.env.BASE_URL}images/men.jpg`}
+            className="img-fluid"
+            alt="Men Collection"
+          />
+          <h3>Shop Men's Collection</h3>
+        </div>
+
+        <div className="col-md-6 text-center">
+          <img
+            src={`${import.meta.env.BASE_URL}images/women.jpg`}
+            className="img-fluid"
+            alt="Women Collection"
+          />
+          <h3>Shop Women's Collection</h3>
+        </div>
       </div>
     </div>
-  )
+  );
 }
