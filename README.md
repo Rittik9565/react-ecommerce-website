@@ -1,70 +1,108 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
 # 🛒 React E-Commerce Website
 
-A fully functional e-commerce website built using React.
+A fully functional and responsive E-Commerce web application built using **React JS**.  
+This project demonstrates real-world frontend concepts such as routing, global state management, filtering, and cart functionality.
 
-## 🚀 Features
+---
 
-- Product listing page
-- Dynamic product detail page
-- Category filter (Men / Women)
-- Search functionality
-- Cart system using Context API
-- Add to cart with quantity management
-- Persistent cart using Local Storage
-- Responsive design
+## 🚀 Live Demo
 
-## 🛠️ Tech Stack
+🔗 **Live Website:** https://rittik9565.github.io/react-ecommerce-website/#/  
+🔗 **GitHub Repository:** https://github.com/rittik9565/react-ecommerce-website  
 
+---
+
+## 📌 Project Overview
+
+This application allows users to:
+
+- Browse products
+- Filter by category (Men / Women)
+- Search products
+- View detailed product pages
+- Add products to cart
+- Manage cart quantity
+- Persist cart data using Local Storage
+
+The goal of this project was to strengthen my understanding of React fundamentals and build a practical real-world application.
+
+---
+
+## ✨ Key Features
+
+- 🛍 Product Listing Page  
+- 📄 Dynamic Product Detail Page  
+- 🏷 Category Filtering  
+- 🔍 Search Functionality  
+- 🛒 Cart System using Context API  
+- ➕ Quantity Management  
+- 💾 Persistent Cart (Local Storage)  
+- 📱 Fully Responsive Design  
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
 - React JS
 - React Router DOM
 - Context API
+- JavaScript (ES6+)
 - Bootstrap
-- JavaScript (ES6)
+
+### Development Tools
+- Vite
+- Git
+- GitHub
+- VS Code
+
+---
+
+## 🧠 Concepts Practiced
+
+- Component-Based Architecture  
+- Dynamic Routing  
+- URL Parameters  
+- Global State Management (Context API)  
+- Filtering & Searching Logic  
+- Local Storage Integration  
+- Responsive UI Development  
+
+---
 
 ## 📂 Project Structure
 
-- components/
-- pages/
-- sections/
-- context/
-- data/
+src/
+├── components/
+├── pages/
+├── sections/
+├── context/
+├── data/
+├── App.jsx
+└── main.jsx
 
-## 🧠 What I Learned
 
-- Routing in React
-- Dynamic URL parameters
-- State management using Context API
-- Filtering and searching logic
-- Component based architecture
 
-## 📸 Screenshots
+---
 
-(Add screenshots here later)
+## 🎯 Future Improvements
 
-## 🔗 Live Demo
+- Add authentication (Login / Signup)
+- Backend & database integration
+- Payment gateway integration
+- Improved UI animations
+- Admin dashboard panel
 
-(Add deployment link here after deploying)
+---
 
-## 📌 Author
+## 👨‍💻 Author
 
-Rittik Srivastav  
-Junior Frontend Developer
->>>>>>> 50fccdc6bf3dcb15b4804480ea450191cfb6a9c6
+**Rittik Srivastav**  
+Frontend Developer | React JS  
+
+📧 rittiksrivastav9140@gmail.com  
+🌐 https://github.com/rittik9565  
+
+---
+
+⭐ If you like this project, consider giving it a star!
