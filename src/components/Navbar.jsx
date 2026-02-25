@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom"; // ✅ add Link
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 
@@ -16,7 +16,11 @@ export default function Navbar() {
           <li><NavLink to="/shop/women">Women</NavLink></li>
           <li><NavLink to="/about">About</NavLink></li>
           <li><NavLink to="/contact">Contact</NavLink></li>
-          <li><NavLink to="/cart">Cart ({totalItems})</NavLink></li>
+          <li>
+            <NavLink to="/cart">
+              Cart ({totalItems})
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>

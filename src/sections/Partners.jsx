@@ -1,4 +1,5 @@
-export default function Featured() {
+import { Link } from "react-router-dom";
+export default function Partners() {
   return (
     <div className="container-fluid my-5">
       <div className="row">
