@@ -55,12 +55,21 @@ export function CartProvider({ children }) {
       )
     );
   };
+  // Clear cart
+  const clearCart = () => {
+    setCart([]);
+  };
 
   // Total price
   const totalPrice = cart.reduce(
     (sum, item) => sum + item.price * item.quantity,
     0
   );
+ // Total items count
+  const cartCount = cart.reduce(
+    (sum, item) => sum + item.quantity,
+    0
+  ); 
 
   return (
     <CartContext.Provider
@@ -70,7 +79,9 @@ export function CartProvider({ children }) {
         removeFromCart,
         incrementQuantity,
         decrementQuantity,
-        totalPrice
+        clearCart,
+        totalPrice,
+        cartCount
       }}
     >
       {children}
