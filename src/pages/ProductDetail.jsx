@@ -11,7 +11,14 @@ export default function ProductDetail() {
   const product = products.find((p) => p.id === Number(id));
 
   if (!product) {
-    return <h2 className="text-center mt-5">Product Not Found</h2>;
+  return (
+    <div className="text-center mt-5">
+      <h2>Product Not Found</h2>
+      <Link to="/shop" className="btn btn-primary mt-3">
+        Back to Shop
+      </Link>
+    </div>
+  );
   }
 
   return (
