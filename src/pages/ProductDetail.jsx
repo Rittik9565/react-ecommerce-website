@@ -27,7 +27,7 @@ export default function ProductDetail() {
         <div className="col-md-6">
           <img
             src={`${import.meta.env.BASE_URL}${product.image}`}
-            className="img-fluid"
+            className="img-fluid rounded"
             alt={product.name}
           />
         </div>
